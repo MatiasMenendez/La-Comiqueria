@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap');
+
+.section1 {@extend %flexFilas;
+margin-top: 20%;
+flex-wrap: wrap;
+justify-content: center;}
+
+main section div {width: auto;
+text-align: center;
+padding-left: 18px;
+padding-right: 18px;
+padding-top: 5px;
+padding-bottom: 5px;}
+
+main section img , .trailer {margin: 30px auto;}
+
+.img1:hover , .img2:hover {transform: scale(1.2);
+transition: all 2s;}
+
+
+
+section i {color: nth($colores, 3);
+background-color: nth($colores, 2);
+font-size: nth($tamañosFuente, 4);
+font-family: 'Comic Neue', cursive;
+display: flex;
+justify-content: space-around;}
+
+main section p {font-size: nth($tamañosFuente, 2);
+font-weight: bold;
+@extend %flexColumnas}

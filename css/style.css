@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap");
+header {
+  flex-wrap: wrap;
+}
+header div {
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  margin-top: 20%;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  font-size: 30px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0px;
+  font-family: "Comic Neue", cursive;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.map {
+  width: 100%;
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, chocolate, chocolate, orange);
+}
+
+.section1 {
+  margin-top: 20%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main section div {
+  width: auto;
+  text-align: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main section img, .trailer {
+  margin: 30px auto;
+}
+
+.img1:hover, .img2:hover {
+  transform: scale(1.2);
+  transition: all 2s;
+}
+
+section i {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+  font-family: "Comic Neue", cursive;
+  display: flex;
+  justify-content: space-around;
+}
+
+main section p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  font-family: "Comic Neue", cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.pregunta1 {
+  color: black;
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+.respuesta {
+  font-size: 20px;
+}
+
+.formulario {
+  padding: 20px 100px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  background-color: grey;
+  color: black;
+  font-family: "Comic Neue", cursive;
+}
+
+header, header div, footer, footer ul, .section1 {
+  display: flex;
+  flex-direction: row;
+}
+
+main section p, .pregunta1 {
+  display: flex;
+  flex-direction: column;
+}
+
+header div, .pregunta1, .respuesta {
+  font-weight: bold;
+  font-family: "Comic Neue", cursive;
+}
+
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .pregunta1 {
+    font-size: 50px;
+  }
+
+  footer ul {
+    font-size: 50px;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    padding-left: 0%;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+  }
+
+  .formulario {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 440px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .pregunta1 {
+    font-size: 25px;
+  }
+
+  footer ul {
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    padding-left: 0%;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+  }
+
+  .formulario {
+    padding: 20px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

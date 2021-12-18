@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap');
+
+
+h1 {background-color: nth($colores, 2);
+    color: nth($colores, 3);
+    font-size: 80px;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;}
+
+.pregunta1 {@extend %fuenteNegrita;
+            color: black;
+            @extend %flexColumnas;
+            margin-top: 10%;
+            font-size: nth($tamañosFuente, 4);}
+
+.respuesta {@extend %fuenteNegrita;
+            font-size: 20px;}

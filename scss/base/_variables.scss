@@ -1,0 +1,23 @@
+@media screen and (max-width: 780px) {
+    h1{font-size: 50px;}
+    .pregunta1{font-size: 50px;}
+    footer ul{font-size: 50px;
+    flex-wrap: wrap;}
+    aside {padding-left: 0%;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;}
+    .formulario{padding: 20px 0px;}
+}
+
+@media screen and (max-width: 440px) {
+    h1{font-size: 25px;}
+    .pregunta1{font-size: 25px;}
+    footer ul{font-size: 25px;
+    flex-wrap: wrap;}
+    aside {padding-left: 0%;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;}
+    .formulario{padding: 20px 0px;}
+}

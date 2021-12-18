@@ -1,0 +1,28 @@
+@import '../base/listas';
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap');
+
+footer {@extend %flexFilas;
+margin-top: 20%;
+flex-wrap: wrap;}
+
+footer ul {font-size: nth($tamañosFuente, 3);
+width: 100%;
+background-color: nth($colores, 2);
+color: nth($colores, 3);
+@extend %flexFilas;
+justify-content: space-between;
+justify-content: space-around;
+text-decoration: none;
+list-style: none;
+margin-bottom: 0px;
+font-family: 'Comic Neue', cursive;}
+
+footer ul li a {text-decoration: none;
+color: nth($colores, 3);}
+
+.map {width: 100%;
+text-align: center;
+font-family: 'Comic Neue', cursive;
+background-color: nth($colores, 2);
+color: nth($colores , 3);
+font-size: nth($tamañosFuente, 4)}

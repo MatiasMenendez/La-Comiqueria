@@ -1,0 +1,17 @@
+@import '../base/listas';
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap');
+
+header {@extend %flexFilas;
+        flex-wrap: wrap;
+   div { font-size: nth($tamañosFuente, 4);
+         font-style: italic;
+         @extend %fuenteNegrita;
+         text-decoration: none;
+         text-align: center;
+         @extend %flexFilas;
+         width: 100%;
+         padding-top: 0px;
+         padding-bottom: 0px;
+         margin-top: 0px;
+         margin-bottom: 0px;}
+}
